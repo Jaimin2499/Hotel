@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(57, 31, 20);
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(168, 84, 50);
+    border-bottom: rgb(168, 84, 50) solid 2px;
+}
+
+nav ul button {
+    background-color: rgb(168, 84, 50);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav img {
+    padding: 10px 20px;
+    height: 70px;
+    width: 150px;
+}
+
+.home {
+    width: 100%;
+    height: 60vh;
+    background: rgb(57, 31, 20);
+}
+
+.home .image {
+    position: absolute;
+    height: 430px;
+    width: 850px;
+    margin-left: 38%;
+}
+
+.home .image img {
+    position: relative;
+    height: 430px;
+    width: 850px;
+}
+
+.home .name {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.home .name h1 {
+    color: white;
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+
+.home .name h3 {
+    color: white;
+    text-align: start;
+    padding: 30px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home .name span {
+    color: rgb(168, 84, 50);
+}
+
+.map {
+    width: 100%;
+    height: 80vh;
+}
+
+.map .map1 iframe {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+}
+
+.contact .name {
+    position: absolute;
+    height: 30px;
+    width: 180px;
+    margin-top: -40%;
+    margin-left: 40%;
+    color: rgb(168, 84, 50);
+}
+
+.contact .box {
+    height: 70vh;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-right: rgb(168, 84, 50) solid 5px;
+    display: inline-block;
+}
+
+.contact .box .card {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+}
+
+.contact .box .card .card-body i {
+    color: rgb(168, 84, 50);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .box .card .card-body h4 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.contact .box .card .card-body h5 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 15px;
+    color: rgb(168, 84, 50);
+}
+
+.contact .text {
+    height: 65vh;
+    width: 40%;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 45%;
+}
+
+.contact .text .form-control {
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.contact .text button {
+    background: rgb(168, 84, 50);
+    border-radius: 5px;
+    margin-top: 10%;
+    color: white;
+    width: 20%;
+    height: 7%;
+    border: none;
+    transition: 0.5s;
+}
+
+.contact .text button:hover {
+    color: white;
+    background: rgb(57, 31, 20);
+    transition: 0.5s;
+}
+
+.copyright {
+    width: 100%;
+    height: 50vh;
+    background: wheat;
+}
+
+.copyright .block {
+    width: 90%;
+    margin: auto;
+}
+
+.copyright .card {
+    background: wheat;
+    border: none;
+    margin-left: 10%;
+    top: 15%;
+    display: inline-block;
+}
+
+.copyright .card h5 {
+    color: rgb(168, 84, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copyright .card h4 {
+    font-size: 18px;
+    padding: 5px 0px;
+    color: black;
+}
+
+.copyright .card a {
+    text-decoration: none;
+}
+
+.copyright .card .social i {
+    font-size: 20px;
+    color: rgb(168, 84, 50);
+    padding: 10px 10px;
+}
+
+.copyright .card .social i:hover {
+    color: white;
+}
+
+.copyright .top {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background: rgb(168, 84, 50);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright a i {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 2px;
+}

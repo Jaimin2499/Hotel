@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(57, 31, 20);
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(168, 84, 50);
+    border-bottom: rgb(168, 84, 50) solid 2px;
+}
+
+nav ul button {
+    background-color: rgb(168, 84, 50);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav img {
+    padding: 10px 20px;
+    height: 70px;
+    width: 150px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: rgb(57, 31, 20);
+}
+
+.home img {
+    float: right;
+    width: 70%;
+    height: 95%;
+}
+
+.home .name {
+    height: 500px;
+    width: 650px;
+    margin-top: 15%;
+    margin-left: 12%;
+    position: absolute;
+    /* background-color: wheat; */
+}
+
+.home .name h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.home .name h1 span {
+    color: rgb(168, 84, 50);
+}
+
+.home .name .name1 {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+}
+
+.home .name .name1 h3 {
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding: 20px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home button {
+    position: absolute;
+    height: 60px;
+    width: 130px;
+    border: none;
+    color: white;
+    margin-top: 30%;
+    margin-left: -15%;
+    overflow: hidden;
+    background-color: rgb(168, 84, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home button::before {
+    position: absolute;
+    content: '';
+    margin-left: -125%;
+    margin-top: -14%;
+    width: 130px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.13);
+    transition: 0.5s;
+}
+
+.home button:hover::before {
+    margin-left: -23%;
+    transition: 0.5s;
+}
+
+.learn {
+    width: 100%;
+    height: 100vh;
+}
+
+.learn .name {
+    margin: auto;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.learn .name h1 {
+    color: black;
+    font-size: 30px;
+    padding: 50px 0px;
+    font-weight: 500;
+}
+
+.learn .box {
+    width: 400px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.learn .box h3 {
+    color: rgb(168, 84, 50);
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.learn .box h5 {
+    color: black;
+    padding: 30px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.learn .box button {
+    height: 60px;
+    width: 150px;
+    background: rgb(168, 84, 50);
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.learn .image {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+
+.learn .image img {
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.learn .image1 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: -10%;
+    margin-left: 70%;
+}
+
+.learn .image1 img {
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+
+.more {
+    width: 100%;
+    height: 180vh;
+}
+
+.more .name {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.more .name h3 {
+    font-weight: 500;
+}
+
+.more .block {
+    width: 98%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 10%;
+}
+
+.more .block .card {
+    margin: auto;
+    border: none;
+    padding: 50px 0px;
+}
+
+.more .block .card h5 {
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(57, 31, 20);
+}
+
+.more .block .card a {
+    height: 40px;
+    width: 80px;
+    background: rgb(168, 84, 50);
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.more .block .card span {
+    padding: 0px 50px;
+    color: orange;
+    font-weight: 600;
+}
+
+.copyright {
+    width: 100%;
+    height: 50vh;
+    background: wheat;
+}
+
+.copyright .block {
+    width: 90%;
+    margin: auto;
+}
+
+.copyright .card {
+    background: wheat;
+    border: none;
+    margin-left: 10%;
+    top: 15%;
+    display: inline-block;
+}
+
+.copyright .card h5 {
+    color: rgb(168, 84, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copyright .card h4 {
+    font-size: 18px;
+    padding: 5px 0px;
+    color: black;
+}
+
+.copyright .card a {
+    text-decoration: none;
+}
+
+.copyright .card .social i {
+    font-size: 20px;
+    color: rgb(168, 84, 50);
+    padding: 10px 10px;
+}
+
+.copyright .card .social i:hover {
+    color: white;
+}
+
+.copyright .top {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background: rgb(168, 84, 50);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright a i {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 2px;
+}

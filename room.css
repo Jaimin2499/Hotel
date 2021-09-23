@@ -1,0 +1,337 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    nav {
+        background-color: rgb(57, 31, 20);
+        height: 10vh;
+        width: 100%;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        color: rgb(168, 84, 50);
+        border-bottom: rgb(168, 84, 50) solid 2px;
+    }
+    
+    nav ul button {
+        background-color: rgb(168, 84, 50);
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 800;
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    nav img {
+        padding: 10px 20px;
+        height: 70px;
+        width: 150px;
+    }
+    
+    .ourroom {
+        width: 100%;
+        height: 60vh;
+        background: rgb(57, 31, 20);
+    }
+    
+    .ourroom .image {
+        position: absolute;
+        height: 430px;
+        width: 850px;
+        margin-left: 38%;
+    }
+    
+    .ourroom .image img {
+        position: relative;
+        height: 430px;
+        width: 850px;
+    }
+    
+    .ourroom .name {
+        position: absolute;
+        height: 300px;
+        width: 500px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    
+    .ourroom .name h1 {
+        color: white;
+        font-size: 80px;
+        letter-spacing: 10px;
+    }
+    
+    .ourroom .name h3 {
+        color: white;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    
+    .ourroom .name span {
+        color: rgb(168, 84, 50);
+    }
+    
+    .checkroom {
+        width: 100%;
+        height: 220vh;
+    }
+    
+    .checkroom .name {
+        width: 80%;
+        height: 20vh;
+        margin: auto;
+    }
+    
+    .checkroom .name h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 0px;
+        color: black;
+    }
+    
+    .checkroom .block1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 8%;
+    }
+    
+    .checkroom .block1 .card {
+        margin: auto;
+        border: none;
+        padding: 50px 0px;
+    }
+    
+    .checkroom .block1 .card a {
+        height: 40px;
+        width: 80px;
+        background: rgb(168, 84, 50);
+        border: none;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .checkroom .block1 .card span {
+        padding: 0px 130px;
+        color: orange;
+        font-weight: 600;
+    }
+    
+    .bookroom {
+        /* background: red; */
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .bookroom .text {
+        height: 30vh;
+        width: 20%;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+    .bookroom .text h1 {
+        font-size: 30px;
+        color: rgb(168, 84, 50);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .bookroom .text h3 {
+        padding: 20px 0px;
+        font-size: 20px;
+        color: black;
+        text-align: justify;
+    }
+    
+    .bookroom .booking {
+        width: 35%;
+        height: 50vh;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 60%;
+    }
+    
+    .bookroom .booking h1 {
+        font-size: 40px;
+        color: rgb(168, 84, 50);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .bookroom .booking .btn {
+        background: rgb(168, 84, 50);
+        color: white;
+    }
+    
+    .bookroom .booking .btn button {
+        background: rgb(168, 84, 50);
+        color: white;
+        border: none;
+    }
+    
+    .features {
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .features .accommodation {
+        width: 80%;
+        height: 55vh;
+        margin: auto;
+    }
+    
+    .features .accommodation .card {
+        margin: auto;
+        border: none;
+        margin-top: 5%;
+    }
+    
+    .features .accommodation .card h5 {
+        color: rgb(168, 84, 50);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+    }
+    
+    .features .accommodation .card p {
+        text-align: justify;
+        padding: 30px 0px;
+    }
+    
+    .slider {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .slider .image {
+        width: 95%;
+        margin: auto;
+        height: 40vh;
+    }
+    
+    .slider .image .card {
+        margin: auto;
+        margin-top: 10%;
+        border: none;
+        overflow: hidden;
+    }
+    
+    .slider .image .card i {
+        color: white;
+        position: absolute;
+        font-size: 30px;
+        margin-top: 25%;
+        margin-left: 45%;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .slider .image .card:hover i {
+        opacity: 1;
+        transition: 0.5s;
+    }
+    
+    .slider .image .card::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.226);
+        position: absolute;
+        margin-left: -100%;
+        transition: 0.5s;
+    }
+    
+    .slider .image .card:hover::before {
+        margin-left: 0%;
+        transition: 0.5s;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 50vh;
+        background: wheat;
+    }
+    
+    .copyright .block {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .copyright .card {
+        background: wheat;
+        border: none;
+        margin-left: 10%;
+        top: 15%;
+        display: inline-block;
+    }
+    
+    .copyright .card h5 {
+        color: rgb(168, 84, 50);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .copyright .card h4 {
+        font-size: 18px;
+        padding: 5px 0px;
+        color: black;
+    }
+    
+    .copyright .card a {
+        text-decoration: none;
+    }
+    
+    .copyright .card .social i {
+        font-size: 20px;
+        color: rgb(168, 84, 50);
+        padding: 10px 10px;
+    }
+    
+    .copyright .card .social i:hover {
+        color: white;
+    }
+    
+    .copyright .top {
+        position: fixed;
+        top: 90%;
+        left: 95%;
+        background: rgb(168, 84, 50);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    }
+    
+    .copyright a {
+        text-decoration: none;
+    }
+    
+    .copyright a i {
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
